@@ -23,18 +23,18 @@ This project demonstrates best practices for initializing a Django REST API back
 ``` 
 alx_travel_app/
 ├── alx_travel_app/           # Django project folder
-│   ├── __init__.py
-│   ├── settings.py
-│   ├── urls.py
-│   └── wsgi.py
-├── listings/                 # Django app for travel listings
-│   ├── __init__.py
-│   ├── admin.py
-│   ├── apps.py
-│   ├── models.py
-│   └── views.py
-├── manage.py                 # Django CLI
-├── requirements.txt          # Python dependencies
+│  ├── listings/                 # Django app for travel listings
+│  │   ├── __init__.py
+│  │   ├── admin.py
+│  │   ├── apps.py
+│  │   ├── models.py
+│  │   └── views.py
+│  ├── __init__.py
+│  ├── settings.py
+│  ├── urls.py
+│  ├── wsgi.py
+|  └──requirements.txt   
+├── manage.py                 # Django CLI       # Python dependencies
 ├── .env.example              # Sample environment variables file
 ├── README.md
 └── venv/                    # Virtual environment (not committed)
