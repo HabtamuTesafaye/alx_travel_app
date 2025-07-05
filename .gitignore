@@ -1,0 +1,27 @@
+# Virtual environment folder
+venv/
+
+# Environment variables file containing secrets
+.env
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# SQLite database files (if any)
+*.sqlite3
+
+# Logs
+*.log
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+
+# Django migrations (optional, can commit if you want)
+# ** Uncomment if you want to ignore migration files **
+# */migrations/*.py
+# */migrations/*.pyc
